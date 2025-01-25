@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+         .carousel-item img {
+           max-height: 600px; 
+         object-fit: cover; 
+         }
+
+
+
+   .carousel-caption h5 {
+     
+           color: #ffffff;  
+           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);  
+           background: rgba(0, 0, 0, 0.5);  
+           border-radius: 10px;  
+           letter-spacing: 2px;  
+           }
+
+</style>
+</head>
+<body>
+     <!-- Navigation Bar -->
+     <nav class="navbar navbar-expand-lg" style="background-color: #2c3e50;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="C:\Users\thili\OneDrive\Desktop\pictures\logo_image.jpg" alt="Logo" style="height: 70px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="abouth_Us.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Our Products.html" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Our Products
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="petcare.html" target="_blank">Pet Care</a></li>
+                            <li><a class="dropdown-item" href="cattles.html" target="_blank">Cattle</a></li>
+                            <li><a class="dropdown-item" href="poultry.html" target="_blank">Poultry</a></li>
+                        </ul>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Our Service.html">Our Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Our Suppliers.html">Our Suppliers</a>
+                    </li>
+                    <!-- Dropdown Menu -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="Contact Us.html" id="contactdropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Contact Us
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                            <li><a class="dropdown-item" href="Appointment.html" target="_blank">Appointment</a></li>
+                            <li><a class="dropdown-item" href="Register.html" target="_blank">Register</a></li>
+                            <li><a class="dropdown-item" href="Inquiry.html" target="_blank">Inquiry</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+         
+
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="C:\Users\thili\OneDrive\Desktop\pictures\pexels-lucasandrade-4681107.jpg" class="d-block w-100" alt="A happy dog enjoying care">
+                    <div class="carousel-caption d-none d-md-block">
+                        
+                        <h5 class="fw-lighter d-flex justify-content-center align-items-center" style="width: 1000px; height: 100px; border: 1px solid #000;">
+                            Healthy Animal Makes The World Better Place
+                        </h5>
+                        
+
+
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="C:\Users\thili\OneDrive\Desktop\pictures\homepage_pic2.jpg" class="d-block w-100" alt="A group of dogs playing">
+                    <div class="carousel-caption d-none d-md-block">
+                         
+                        <h5 class="fw-lighter d-flex justify-content-center align-items-center" style="width: 1000px; height: 100px; border: 1px solid #000;">
+                            Transcending The Unique Position Through Our Wide Portfolio Of Products And Services
+                        </h5>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="C:\Users\thili\OneDrive\Desktop\pictures\poutry.jpg" class="d-block w-100" alt="A dog receiving grooming care">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="fw-lighter d-flex justify-content-center align-items-center" style="width: 1000px; height: 100px; border: 1px solid #000;">
+                            Providing The Very Best Innovative Safe And Realible Products And Solutions
+                        </h5>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+          
+    </main>
+
+     
+     
+
+   
+    <footer>
+        <div class="contact-info">
+            <p><strong>Tails Waggers Care</strong></p>
+            <p>No 123 Main Street</p>
+            <p>Embilipitiya</p>
+            <p>
+                <span>📞</span> 0471234675<br>
+                <span>📱</span> 0717865437<br>
+                <span>✉️</span> tailswaggerscare@gmail.com
+            </p>
+        </div>
+        
+        <div class="footer-links">
+            <p>All rights reserved</p>
+            <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> | 
+            <a href="https://policies.google.com/terms?hl=en">Terms of Services</a>
+        </div>
+    </footer>
+
+     
+    
+
+</body>
+</html>

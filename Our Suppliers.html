@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Suppliers - Tail Waggers Care</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+         
+         
+         
+         main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+             margin: 0;
+        }
+        
+        
+        h1{
+        font-family: 'Georgia', serif;  
+        font-weight: bold;  
+        font-size: 2rem;  
+        color: #010206f8;  
+        text-align: center;  
+        letter-spacing: 2px;  
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);  
+        }
+
+        .supplier-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .supplier-grid div {
+            background-color: #ddd;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ccc;
+        }
+
+        .image-container {
+            display: flex;
+            align-items: center;
+            position: relative;
+            width: width: calc(320px * 4 + 30px * 3); 
+            overflow: hidden;
+        }
+
+        .image-scroll {
+            display: flex;
+            gap: 200px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-scroll img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            z-index: 1;
+            border-radius: 5px;
+        }
+
+        .button.left {
+            left: 10px;
+        }
+
+        .button.right {
+            right: 10px;
+        }
+
+        .button:disabled {
+            background-color: rgba(0, 0, 0, 0.2);
+            cursor: not-allowed;
+        }
+        
+ 
+    </style>
+</head>
+<body>
+   <!-- Navigation Bar -->
+   <nav class="navbar navbar-expand-lg" style="background-color: #2c3e50;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="C:\Users\thili\OneDrive\Desktop\pictures\logo_image.jpg" alt="Logo" style="height: 70px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link " href="Home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="abouth_Us.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Our Products.html" id="productsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Our Products
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                        <li><a class="dropdown-item" href="petcare.html" target="_blank">Pet Care</a></li>
+                        <li><a class="dropdown-item" href="cattles.html" target="_blank">Cattle</a></li>
+                        <li><a class="dropdown-item" href="poultry.html" target="_blank">Poultry</a></li>
+                    </ul>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Our Service.html">Our Services</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link active" href="Our Suppliers.html">Our Suppliers</a>
+                </li>
+                <!-- Dropdown Menu -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle " href="Contact Us.html" id="contactdropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contact Us
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="productsDropdown">
+                        <li><a class="dropdown-item" href="Appointment.html" target="_blank">Appointment</a></li>
+                        <li><a class="dropdown-item" href="Register.html" target="_blank">Register</a></li>
+                        <li><a class="dropdown-item" href="Inquiry.html" target="_blank">Inquiry</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <main>
+        <h1>OUR SUPPLIERS</h1>
+        <div class="image-container">
+            <!-- Left Bootstrap Button -->
+            <button class="btn btn-primary button left" id="leftBtn">←</button>
+            <div class="image-scroll" id="imageScroll">
+                <a href="https://www.cargill.com/animal-nutrition/brands/provimi">
+                <img src ="C:\Users\thili\OneDrive\Desktop\pictures\sp1.png" alt="Image 1">
+                </a>
+
+                <a href="https://www.1mg.com/otc/vimpro-protein-with-ala-inositol-coenzyme-q10-gluten-free-flavour-chocolate-powder-otc679795?srsltid=AfmBOooha6u0jwwvpbAtvHHB6E823SowG0E44LLJH9BaDqwio9P8k0xb&wpsrc=Google+Organic+Search">
+                <img src="C:\Users\thili\OneDrive\Desktop\pictures\sp02.png" alt="Image 2">
+                </a>
+
+                <a href="https://www.hipra.com/en"> 
+                <img src ="C:\Users\thili\OneDrive\Desktop\pictures\sp3.png" alt="Image 3">
+                </a>
+
+                <a href="https://petsvcare.lk/"> 
+                <img src = "C:\Users\thili\OneDrive\Desktop\pictures\sp04.webp" alt="Image 4">
+                </a>
+
+                <a href="https://www.neogen.com/"> 
+                <img src ="C:\Users\thili\OneDrive\Desktop\pictures\sp05.png" alt="Image 5">
+                </a>
+
+                <a href="https://www.prnewswire.com/news-releases/idexx-advances-cloud-technology-applications-for-veterinary-profession-with-innovative-practice-management-software-300205233.html"> 
+                <img src ="C:\Users\thili\OneDrive\Desktop\pictures\spo6.png" alt="Image 6">
+                </a>
+
+                <a href="https://www.elanco.com/en-us"> 
+                <img src="C:\Users\thili\OneDrive\Desktop\pictures\spo7.png" alt="Image 7">
+                </a>
+
+                <a href="https://www.cargill.com/animal-nutrition"> 
+                <img src="C:\Users\thili\OneDrive\Desktop\pictures\spo8.jpg" alt="Image 8">
+                </a>
+
+                <a href="https://www.cidlines.com/en-INT"> 
+                <img src="C:\Users\thili\OneDrive\Desktop\pictures\sp9.png" alt="Image 9">
+                </a>
+
+                <a href="https://www.basf.com/lk/en"> 
+                <img src="C:\Users\thili\OneDrive\Desktop\pictures\sp10.png" alt="Image 10">
+                </a>
+
+
+            </div>
+            <!-- Right Bootstrap Button -->
+            <button class="btn btn-primary button right" id="rightBtn">→</button>
+        </div>
+    
+         
+        <script>
+            const imageScroll = document.getElementById('imageScroll');
+            const leftBtn = document.getElementById('leftBtn');
+            const rightBtn = document.getElementById('rightBtn');
+    
+            let scrollAmount = 0;
+            const scrollStep = 320; // Adjust based on the image width + gap
+            let imageCounter = 6; // Counter for dynamically loaded images
+    
+            rightBtn.addEventListener('click', () => {
+                scrollAmount += scrollStep;
+                imageScroll.style.transform = `translateX(-${scrollAmount}px)`;
+    
+                // Load more images if nearing the end
+                if (scrollAmount >= imageScroll.scrollWidth - imageScroll.clientWidth) {
+                    loadMoreImages();
+                }
+            });
+    
+            leftBtn.addEventListener('click', () => {
+                scrollAmount -= scrollStep;
+                imageScroll.style.transform = `translateX(-${scrollAmount}px)`;
+            });
+    
+            function loadMoreImages() {
+                const maxImages = 10; // Maximum number of images
+                  const currentImages = imageScroll.querySelectorAll('img').length;
+    
+                 if (currentImages >= maxImages) {
+            console.log("Reached the maximum number of images.");
+            return; // Stop adding more images
+        }
+                for (let i = 0; i <4; i++) {
+                    if (imageCounter > maxImages) break;
+                    const img = document.createElement('img');
+                    img.src = `https://via.placeholder.com/300x200?text=Image+${imageCounter}`;
+                    img.alt = `Image ${imageCounter}`;
+                    imageScroll.appendChild(img);
+                    imageCounter++;
+                }
+            }
+        </script>
+    </main>
+     
+    <footer>
+        <div class="contact-info">
+            <p><strong>Tails Waggers Care</strong></p>
+            <p>No 123 Main Street</p>
+            <p>Embilipitiya</p>
+            <p>
+                <span>📞</span> 0471234675<br>
+                <span>📱</span> 0717865437<br>
+                <span>✉️</span> tailswaggerscare@gmail.com
+            </p>
+        </div>
+        
+        <div class="footer-links">
+            <p>All rights reserved</p>
+            <a href="https://policies.google.com/privacy?hl=en">Privacy Policy</a> | 
+            <a href="https://policies.google.com/terms?hl=en">Terms of Services</a>
+        </div>
+    </footer>
+
+     
+</body>
+</html>

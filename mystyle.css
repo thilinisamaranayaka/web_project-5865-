@@ -1,0 +1,88 @@
+
+
+/* Navbar Styling */
+.navbar {
+  font-family: 'Playfair Display', serif; /* Change font style */
+  font-size: 16px; /* Adjust font size */
+  background-color: black !important; /* Set navbar background color */
+  color: #ffffff; /* Ensure text is readable on dark background */
+}
+.navbar-brand img {
+  border-radius: 8px; /* Add rounded corners to the logo */
+}
+
+/* Navigation Links */
+.navbar-nav .nav-link {
+  color: #ecf0f1; /* Light text color */
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+  padding: 10px 15px;
+}
+
+/* Hover Effect */
+.navbar-nav .nav-link:hover {
+  color: hsl(46, 89%, 55%); /* Gold text color */
+  background-color: rgba(173, 216, 230, 0.3); /* Light blue background */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Current Page Link */
+.navbar-nav .nav-link.active {
+  color: whitesmoke !important; /* Highlight current page color */
+  font-weight: bold; /* Make it bold */
+  text-decoration: underline; /* Add underline */
+}
+
+.nav-item.dropdown .dropdown-menu {
+    display: none;
+  }
+
+    /* Display the dropdown when hovering over the parent list item */
+   .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+    /* Optional: Add a smooth transition effect */
+   .nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+  }
+
+   
+
+
+footer {
+            background-color: black;
+            font-family: Garamond, serif;
+            color: #ecf0f1;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            font-family: 'Poppins', sans-serif; /* Apply Poppins font to footer */
+        }
+        .contact-info {
+          font-family: Garamond, serif;
+            line-height: 1.5;
+        }
+        .contact-info p {
+           font-family: Garamond, serif;
+            margin: 5px 0;
+        }
+        .contact-info span {
+            font-family: Garamond, serif;
+            margin-right: 10px;
+        }
+        .legal {
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        .legal a {
+            color: #2c3e50;
+            text-decoration: none;
+        }
+        .legal a:hover {
+            text-decoration: underline;
+        }
